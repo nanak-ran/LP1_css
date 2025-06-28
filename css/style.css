@@ -1,0 +1,881 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Noto Sans JP", "Zen Kurenaido", "Zen Kaku Gothic New",
+    "Russo One", sans-serif;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #000;
+  background-color: #fff;
+}
+
+.__inner {
+  max-width: 1200px;
+  width: 76%;
+  margin-left: auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}
+
+/* top */
+
+.top-wrap {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #fffdf8;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.top-wrap__background {
+  position: absolute;
+  top: 25%;
+  z-index: 1;
+}
+
+.top-wrap__con {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+}
+
+.top-wrap__con__left {
+  width: 60%;
+}
+
+.top-wrap__con__left__logo {
+  margin-top: 4%;
+  margin-left: 3%;
+}
+
+.top-wrap__con__left__logo small {
+  font-size: 0.75rem;
+}
+
+.top-wrap__con__left__logo p {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.top-wrap__con__left__txt {
+  margin-top: 10%;
+  margin-bottom: 4%;
+}
+
+.top-wrap__con__left__txt p {
+  font-size: 2.19rem;
+  font-weight: bold;
+}
+
+.top-wrap__con__left__txt p span {
+  background-color: #f4b440;
+  color: #fff;
+  padding: 1%;
+}
+
+.top-wrap__con__left__ttl h1 {
+  font-size: 2.81rem;
+}
+
+.top-wrap__con__left__box {
+  display: flex;
+  margin-top: 5%;
+}
+
+.top-wrap__con__left__box__btn {
+  width: 50%;
+  height: 9%;
+  background-color: #ffa552;
+  text-align: center;
+  line-height: 90px;
+  border-radius: 50px;
+  margin-top: 15%;
+  margin-right: 10%;
+  font-size: 1.56rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.top-wrap__con__left__box__btn .__arrow {
+  font-size: 1.56rem;
+  margin-left: 3%;
+  color: #fff;
+}
+
+.top-wrap__con__left__box__part {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 5%;
+}
+
+.top-wrap__con__left__box__part img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.top-wrap__con__left__box__part .first {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.top-wrap__con__left__box__part .second {
+  font-size: 4.69rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.top-wrap__con__left__box__part .second span {
+  font-size: 2.19rem;
+  font-weight: bold;
+}
+
+.top-wrap__con__right {
+  width: 40%;
+}
+
+.top-wrap__con__right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  border-top-left-radius: 100px;
+}
+
+.top-wrap__second {
+  background-color: #3a4a6b;
+}
+
+.top-wrap__second__con {
+  display: flex;
+  max-width: 1200px;
+  height: 20vh;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-wrap__second__con__txt {
+  width: 25%;
+  height: auto;
+  background-color: #fff;
+  padding: 1.8%;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.top-wrap__second__con__txt p {
+  font-size: 1.88rem;
+  font-weight: bold;
+}
+
+
+/* skill */
+.skill-wrap {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.skill-wrap__txt1 {
+  font-weight: bold;
+  font-size: 1.56rem;
+}
+
+.skill-wrap__txt1 p span {
+  color: #fff;
+  background-color: #f4b440;
+  padding: 0.31rem 1.56rem;
+  margin-right: 2%;
+}
+
+.skill-wrap__txt2 p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 2% 0;
+}
+
+.skill-wrap__txt2 img {
+  width: 60%;
+}
+
+.skill-wrap__con {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.75rem;
+}
+
+.skill-wrap__con__item {
+  width: 30%;
+  height: auto;
+  padding-bottom: 2%;
+  position: relative;
+  border: none;
+  border-radius: 25px 0 25px 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.skill-wrap__con__item__case {
+  position: absolute;
+  top: -2%;
+  left: 10%;
+  font-family: "Zen Kurenaido", sans-serif;
+  display: inline-block;
+  transform: rotate(-5deg);
+  font-size: 1.87rem;
+}
+
+.skill-wrap__con__item__txt {
+  background-color: #fffcdc;
+  border-radius: 50px;
+  width: 70%;
+  padding: 2%;
+  margin: 40px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  text-align: center;
+}
+
+.skill-wrap__con__item__txt p {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.skill-wrap__con__item__txt::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #fffcdc;
+  transform: translateX(-50%);
+}
+
+.skill-wrap__con__item img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.skill-wrap__triangle {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #f4b440;
+  border-right: 150px solid transparent;
+  border-left: 150px solid transparent;
+  margin: 8% auto;
+}
+
+.skill-wrap__con2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fdeaa5;
+  text-align: center;
+  padding: 80px 0;
+  position: relative;
+}
+
+.skill-wrap__con2::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/そんなお悩み円左.png);
+  top: -8%;
+  left: -3%;
+  width: 280px;
+  height: 320px;
+}
+
+.skill-wrap__con2::after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/そんなお悩円右.png);
+  bottom: 5%;
+  right: 1%;
+  width: 280px;
+  height: 250px;
+}
+
+.skill-wrap__con2__txt1 {
+  font-size: 1.56rem;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+.skill-wrap__con2__txt2 {
+  font-size: 1.56rem;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+.skill-wrap__con2__txt2 span {
+  background-color: #ffa552;
+  font-size: 2.81rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 0 1.5%;
+  margin-right: 5px;
+}
+
+.skill-wrap__con2__txt3 {
+  font-size: 2.18rem;
+  font-weight: bold;
+  color: #ffa552;
+}
+
+
+/* service */
+.service {
+  background-color: #fffdf8;
+  padding: 5.00rem 0;
+  margin-top: 5.00rem;
+}
+
+/* h2 */
+.s-ttl {
+  font-size: 2.50rem;
+  text-align: center;
+  margin-bottom: 5.00rem;
+  position: relative;
+}
+
+.s-ttl::after {
+  content: "";
+  width: 150px;
+  height: 5px;
+  position: absolute;
+  background-color: #fdeaa5;
+  top: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.service-wrap__con {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-wrap__con__point {
+  display: flex;
+  width: 80%;
+  height: auto;
+  background-color: #fffcdc;
+  margin-right: auto;
+  margin-bottom: 5.00rem;
+  padding: 1.87rem 2.50rem;
+  border-top-right-radius: 50px;
+}
+
+.service-wrap__con__point:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.service-wrap__con__point:nth-child(2) {
+  margin-right: 0;
+  margin-left: auto;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 0;
+}
+
+.service-wrap__con__point__left {
+  width: 60%;
+  height: auto;
+  margin-right: 3%;
+}
+
+.service-wrap__con__point__left__tag {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 1.25rem;
+  background-color: #fff;
+  display: inline-block;
+  padding: 0.31rem 1.56rem;
+  border-radius: 25px;
+  margin-bottom: 1.25rem; 
+}
+
+.service-wrap__con__point__left__ttl {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1.87rem;
+  position: relative;
+}
+
+.service-wrap__con__point__left__ttl::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.18rem;
+  background-color: #ffa552;
+  top: 150%;
+  left: 0;
+}
+
+.service-wrap__con__point__left__txt {
+  font-size: 1.12rem;
+  line-height: 2;
+}
+
+.service-wrap__con__point__right__image {
+  width: 40%;
+}
+
+.service-wrap__con__point__right__image img {
+  border-radius: 25px;
+}
+
+
+/* about 学習内容 */
+.about-wrap {
+  max-width: 1200px;
+  padding: 5.00rem;
+  margin: 0 auto;
+}
+
+.about-wrap__txt {
+  text-align: center;
+  margin-bottom: 5.00rem;
+}
+
+.about-wrap__txt p {
+  font-size: 48px;
+}
+
+.about-wrap__txt .about-wrap__txt1 {
+  background-color: #ffa552;
+  font-size: 3.00rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 0.31rem 1.87rem;
+}
+
+.about-wrap__txt .about-wrap__txt2 {
+  font-size: 2.00rem;
+  font-weight: bold;
+  margin: 0 2.18rem;
+}
+
+.about-wrap__txt .about-wrap__txt3 {
+  font-size: 3.00rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.about-wrap__txt .about-wrap__txt3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50% , -100%);
+  width: 0.62rem;
+  height: 0.62rem;
+  background-color: #ffa552;
+  border-radius: 50%;
+}
+
+.about-wrap__con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-wrap__con__item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-wrap__con__item__image {
+  width: 6.25rem;
+  height: 6.25rem;
+  margin: 0 auto;
+}
+
+.about-wrap__con__item__ttl {
+  font-size: 1.50rem;
+  font-weight: bold;
+  margin-top: 1.25rem;
+  margin-bottom: 2.50rem;
+}
+
+.about-wrap__con__item__txt {
+  font-size: 1.12rem;
+  margin-bottom: 2.50rem;
+}
+
+.about-wrap__con__item__txt span {
+  background-color: #fdeaa5;
+  padding: 0.62rem 1.25rem;
+  border-radius: 50px;
+}
+
+/* voice 受講者の声 */
+.voice {
+  padding: 5.00rem 0;
+  background-image: url(../img/受講者の声背景.png);
+  background-size: cover;
+  height: auto;
+  position: relative;
+}
+
+.voice::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/受講生の声あしらい左.png);
+  width: 19.37rem;
+  height: 25rem;
+  top: 0.62rem;
+  left: 0.62rem;
+}
+
+.voice::after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/受講生の声あしらい右.png);
+  width: 19.37rem;
+  height: 25rem;
+  top: 0.62rem;
+  right: 0.62rem;
+}
+
+.voice-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.voice-wrap__txt {
+  font-size: 1.25rem;
+  margin: 5.00rem 0;
+  text-align: center;
+}
+
+.voice-wrap__con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.voice-wrap__con__left {
+  width: 48%;
+  height: 30rem;
+  background-color: #fff;
+  background-image: url(../img/voice-1_s.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 28.12rem 17.5rem;
+  border-radius: 25px;
+  position: relative;
+}
+
+.voice-wrap__con__right {
+  width: 48%;
+  height: 30rem;
+  background-color: #fff;
+  background-image: url(../img/1868385_s.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 28.12rem 17.5rem;
+  border-radius: 25px;
+  position: relative;
+}
+
+.voice-wrap__con__left__txt {
+  width: 92%;
+  position: absolute;
+  top: 9.37rem;
+  left: 4%;
+}
+
+.voice-wrap__con__right__txt {
+  width: 92%;
+  position: absolute;
+  top: 9.37rem;
+  left: 4%;
+}
+
+.voice-wrap__con__left__txt__profile , .voice-wrap__con__right__txt__profile {
+  font-size: 1rem;
+}
+
+.voice-wrap__con__left__txt__txt1 span , .voice-wrap__con__right__txt__txt1 span {
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: #fdba4d;
+  color: #fff;
+  display: inline-block;
+  margin: 0.62rem 0;
+  padding: 0.62rem;
+}
+
+.voice-wrap__con__left__txt__txt2 span , .voice-wrap__con__right__txt__txt2 span {
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: #fdba4d;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 1.87rem;
+  padding: 0.62rem;
+}
+
+.voice-wrap__con__left__txt__txt3 , .voice-wrap__con__right__txt__txt3 {
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+/* menu */
+.menu {
+  padding: 80px 0;
+}
+
+.menu-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-wrap__table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-wrap__table__block {
+  width: 32%;
+}
+
+.menu-wrap__table__block__ttl {
+  text-align: center;
+  background-color: #ffefa0;
+  padding: 1.25rem 5.62rem;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.menu-wrap__table__block__ttl2 {
+  text-align: center;
+  background-color: #fdba4d;
+  padding: 1.25rem 5.62rem;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.menu-wrap__table__block__ttl3 {
+  text-align: center;
+  background-color: #f79412;
+  padding: 1.25rem 5.62rem;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.pran {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: "Zen Kaku Gothic New" , sans-serif;
+  color: #fff;
+  margin-bottom: 1.25rem;
+}
+
+.mark {
+  font-size: 0.87rem;
+  margin-right: 5px;
+}
+
+.price {
+  font-size: 1.87rem;
+  font-family: "Russo One", sans-serif;
+}
+
+.menu-wrap__table__block__ttl__price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-wrap__table__block__ttl__price2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.menu-wrap__table__block__ttl__price2 span {
+  font-size: 0.87rem;
+}
+
+.menu-wrap__table__block__con__sub {
+  display: flex;
+  padding: 1.25rem 3.12rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fffcdc;
+  border-bottom: solid 2px #fff;
+}
+
+.menu-wrap__table__block__con__sub:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.menu-wrap__table__block__con__sub p {
+  width: 70%;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.menu-wrap__table__block__con__sub i {
+  width: 30%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.menu-wrap__txt {
+  margin-top: 5.00rem;
+  text-align: center;
+}
+
+.menu-wrap__txt p {
+  font-size: 1.25rem;
+  box-shadow: inset 0 -8px 0 #ffa552;
+  display: inline-block;
+}
+
+/* faq */
+.faq {
+  padding-bottom: 5.00rem;
+}
+
+.faq-wrap__con {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.faq-wrap__con__block {
+  margin-bottom: 1.25rem;
+}
+
+.faq-wrap__con__block:last-of-type {
+  margin-bottom: 0;
+}
+
+.faq-wrap__con__block__top {
+  background-color: #fdeaa5;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 2%;
+}
+
+.faq-wrap__con__block__top p {
+  font-size: 1.12rem;
+}
+
+.faq-wrap__con__block__top span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 2%;
+}
+
+.faq-wrap__con__block__bottom {
+  font-size: 18px;
+  padding: 3.12rem 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.faq-wrap__con__block__bottom p {
+  padding-left: 2%;
+}
+
+/* contact */
+.contact {
+  background-color: #3a4a6b;
+  padding: 5.00rem 0;
+  color: #fff;
+}
+
+.contact-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-wrap__txt {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 5.00rem;
+}
+
+.contact-wrap__con {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-wrap__con__form__item label {
+  display: block;
+  margin-bottom: 0.62rem;
+}
+
+.contact-wrap__con__form__item input {
+  width: 100%;
+  height: 3.12rem;
+  padding: 0.31rem;
+  margin-bottom: 1.87rem;
+}
+
+.contact-wrap__con__form__item__btn {
+  width: 70%;
+  height: 9%;
+  margin: 0 auto;
+}
+
+.contact-wrap__con__form__item__btn button {
+  display: block;
+  width: 100%;
+  border-radius: 50px;
+  margin-top: 1.25rem;
+  font-size: 1.56rem;
+  padding: 30px 0;
+  font-weight: bold;
+  background-color: #ffa552;
+  color: #fff;
+}
+
+.contact-wrap__con__form__item__btn button .__arrow {
+  font-size: 1.56rem;
+  margin-left: 3%;
+  color: #fff;
+}
+
+/* footer */
+.footer-wrap {
+  padding: 1.87rem 0;
+}
+
+.footer-wrap p {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+
+
+
+
+
+
+
+
