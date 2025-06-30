@@ -21,6 +21,8 @@ body {
   max-width: 1200px;
   width: 76%;
   margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
 }
 
 img {
@@ -43,7 +45,6 @@ img {
 .top-wrap__background {
   position: absolute;
   top: 25%;
-  z-index: 1;
 }
 
 .top-wrap__con {
@@ -51,6 +52,7 @@ img {
   flex-wrap: nowrap;
   justify-content: space-between;
   height: 80vh;
+  margin: 0 auto;
 }
 
 .top-wrap__con__left {
@@ -94,13 +96,14 @@ img {
 
 .top-wrap__con__left__box {
   display: flex;
-  flex-wrap: nowrap;
   margin-top: 5%;
+  justify-content: space-between;
 }
 
 .top-wrap__con__left__box__btn {
-  width: 40%;
-  height: 9%;
+  width: 60%;
+  min-width: 150px;
+  height: 90px;
   background-color: #ffa552;
   text-align: center;
   line-height: 90px;
@@ -125,14 +128,16 @@ img {
 }
 
 .top-wrap__con__left__box__part {
-  width: 200px;
+  width: 30%;
   aspect-ratio: 1 / 1;
+  min-width: 150px;
   background-color: #fff;
   border-radius: 50%;
   position: relative;
   margin-top: 5%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .top-wrap__con__left__box__part img {
@@ -149,7 +154,6 @@ img {
   font-size: 1.25rem;
   font-weight: bold;
   text-align: center;
-  margin-top: 20%;
 }
 
 .top-wrap__con__left__box__part .second {
@@ -203,8 +207,8 @@ img {
 .top-wrap__second__con__txt p {
   font-size: 1.25rem;
   font-weight: bold;
+  line-height: 1.5;
 }
-
 
 /* skill */
 .skill-wrap {
@@ -478,7 +482,7 @@ img {
 
 .about-wrap__txt .about-wrap__txt1 {
   background-color: #ffa552;
-  font-size: 1.56rem;
+  font-size: 1.87rem;
   font-weight: bold;
   color: #fff;
   padding: 0.31rem 1.87rem;
@@ -487,7 +491,7 @@ img {
 .about-wrap__txt .about-wrap__txt2 {
   font-size: 1.56rem;
   font-weight: bold;
-  margin: 0 2.18rem;
+  margin: 0 0.67rem;
 }
 
 .about-wrap__txt .about-wrap__txt3 {
@@ -520,15 +524,15 @@ img {
 }
 
 .about-wrap__con__item__image {
-  width: 3.75rem;
-  height: 3.75rem;
+  width: 4.37rem;
+  height: 4.37rem;
   margin: 0 auto;
 }
 
 .about-wrap__con__item__ttl {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: bold;
-  margin-top: 1.25rem;
+  margin-top: 1rem;
   margin-bottom: 2.50rem;
 }
 
@@ -593,9 +597,10 @@ img {
   height: 28rem;
   background-color: #fff;
   background-image: url(../img/voice-1_s.jpg);
+  object-fit: cover;
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 28.12rem 17.5rem;
+  background-size: auto 17.5rem;
   border-radius: 25px;
   position: relative;
 }
@@ -605,9 +610,11 @@ img {
   height: 28rem;
   background-color: #fff;
   background-image: url(../img/1868385_s.jpg);
+  object-fit: cover;
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 28.12rem 17.5rem;
+  /* background-size: 28.12rem 17.5rem; */
+  background-size: auto 17.5rem;
   border-radius: 25px;
   position: relative;
 }
